@@ -1,0 +1,42 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+}
+
+#canvas{
+    
+    /* border:  solid black; */
+    display: block;
+    width: 100%;
+}
+
+.menu{
+    width: calc(100%-10px) ;
+    border: 3px solid black;
+    background-color: #9BFFFF;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#brushsize{
+    width: 35px;
+}
+
+#color{
+    border: 0;
+    height: 35px;
+    border-radius: 30%;
+}
+
+.hot_keys{
+   height: 150px;
+   width: 400px;
+   text-align: center;
+}
+.hot_keys ul{
+    list-style: none;
+    font-size: 17px;
+}
